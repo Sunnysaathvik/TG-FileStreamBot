@@ -9,4 +9,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . ./venv/
 
 CMD ["python3","-m","WebStreamer"]
-EXPOSE 8080/tcp
+EXPOSE 443/tcp
