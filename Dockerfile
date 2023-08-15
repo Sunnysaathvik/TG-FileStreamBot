@@ -6,6 +6,6 @@ COPY requirements.txt ./
 run pip install --upgrade pip
 RUN pip install --no-cache-dir -r requirements.txt
 
-COPY . ./venv/bin/activate
+COPY . ./venv/
 
 CMD ["python3","-m","WebStreamer"]
